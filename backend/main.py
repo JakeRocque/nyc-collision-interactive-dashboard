@@ -39,7 +39,8 @@ def parse_args():
                         help='NYC Open Data API URL')
     parser.add_argument('--key', type=str, default=os.getenv('NYC_API_KEY'),
                         help='NYC Open Data API key')
-    parser.add_argument('--limit', type=int, default=250000,
+    parser.add_argument('--limit', type=int,
+                        default=50000 if os.getenv('RENDER') else 250000,
                         help='Number of rows to fetch from the API')
     parser.add_argument('--yr-start', type=int, default=2024,
                         help='Default start year for the year range slider')
