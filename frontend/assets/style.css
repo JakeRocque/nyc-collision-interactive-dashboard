@@ -1,0 +1,38 @@
+/* Color Theme */
+:root {
+    --primary: rgba(113, 156, 170, 0.9);
+    --text: rgba(30, 30, 30, 0.75);
+    --border: rgba(113, 156, 170, 0.5);
+    --font: 'Roboto', sans-serif;
+}
+
+/* Title */
+.dashboard-title {
+    font-family: var(--font);
+    color: var(--primary);
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Labels */
+.dashboard-label {
+    font-family: var(--font);
+    color: var(--text);
+}
+
+/* Checklist */
+.dashboard-checklist {
+    font-family: var(--font);
+    font-size: 14px;
+    color: var(--text);
+    margin-bottom: 8px;
+}
+
+/* Graph borders */
+.graph-border {
+    border: 1.5px solid var(--border);
+}
+
+.rc-slider-mark-text {
+    font-family: var(--font);
+}
