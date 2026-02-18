@@ -1,6 +1,8 @@
 # NYC Vehicle Collision Dashboard
 
 Comprehensive dashboard of all vehicle collisions across the five boroughs of New York City from 2012 to present day.
+Deployed at: 
+https://nyc-collision-dashboard.onrender.com
 
 ## Overview
 
